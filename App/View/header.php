@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="preload" href="../assets/media/library.jpg" as="image">
+    <link rel="icon" href="../assets/media/icon.svg">
     <title>
         Library
     </title>

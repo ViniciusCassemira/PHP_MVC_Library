@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a img{
+    width: 25px;
+    color: white;
+    margin: 2px;
+}
+
+
+#app{
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    font-weight: bold;
+    min-height: 100vh;
+    min-width: 100vh;
+    text-align: center;
+    color: rgb(234, 234, 234);
+
+    background-image: url('../media/library.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(142, 68, 173);
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+button:hover{
+    background-color: rgb(113, 55, 138);
+    scale: 1.05;
+}
+
+
+#button_language{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+#button_language:hover{
+    scale: 1.05;
+}
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    margin: 3vh 0;
+    /* margin: auto; */
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    /* background-color: rgb(37, 40, 57); */
+    padding: 0.3rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    margin:0px auto;
+    background-color: rgba(58, 58, 75, 0.4);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+form div{
+    display: flex;
+    align-items:center;
+    gap: 2px;
+}
+
+#headerLogo{
+    width: 50px;
+}
+
+h2, h1{
+    margin-bottom: 0.5rem;
+}
+
+img{
+    width: 3rem;
+}
+
+#imgError{
+    width: 40%;
+    margin: auto;
+}
+
+input, select{
+    padding: 3px ;
+}
+
+input{
+    border: 1px solid transparent;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(142, 68, 173);
+    
+}
+
+.loginBtn{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}
+
+#notification-container{
+    position: fixed;
+    width: max-content;
+    border: 1px solid red;
+    padding: 3px 7px;
+    right: 15px;
+    top:15px;
+    visibility: hidden;
+}
+
+span{
+    color: rgb(142, 68, 173);
+}
+
+.tableView{
+    width: 80%;
+    margin: 1rem auto;
+    border-collapse: collapse;
+    background-color: rgba(58, 58, 75, 0.4);
+    border-radius: 10px;
+}
+
+.tableView tr td{
+    padding: 3px;
+}
+
+.tableView tr th{
+    background-color: rgba(92, 26, 86, 0.534);
+    padding: 3px;
+}
+
+.tableView tr th:first-child {
+    border-radius: 10px 0 0 0px;
+}
+
+.tableView tr th:last-child {
+    border-radius: 0 10px 0px 0;
+}
+
+ul{
+    display: flex;
+    gap: 4rem;
+}

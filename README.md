@@ -73,7 +73,7 @@ php -S localhost:8000
 - Acesse a aplicação em: `http://localhost:8000`
 
 ### 3️⃣ Acessando com usuário Admin:
-O banco de dados criado no 3º passo possui um usuário já cadastrado como Administrador, podendo configurar novos usuários, livros e demais parâmetros com ele.
+O banco de dados criado possui um usuário já cadastrado como Administrador, podendo configurar novos usuários, livros e demais parâmetros com ele.
 
 - **Email:** admin@admin.com  
 - **Senha:** admin@123  

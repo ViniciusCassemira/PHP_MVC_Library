@@ -24,7 +24,6 @@ Class BookingController{
         $books = BookController::selectAvailable();
 
         if($_POST){
-            echo "a";
 
             if(empty($_POST['id_book'])){
                 echo "Selecione um livro";

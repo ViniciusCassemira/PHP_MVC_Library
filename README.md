@@ -53,8 +53,8 @@ O objetivo é facilitar a gestão de agendamentos de livros em bibliotecas, perm
 
 ### 4️⃣ Acessando com usuário Admin:
 - O banco que foi criado no 3º passo possui um usuário já cadastrado como Administrador, podendo configurar novos usuários, livros e demais parâmetros com ele.
-*Email: admin@admin.com*
-*Senha: admin@123*
+* Email: admin@admin.com
+* Senha: admin@123
 
 ## 🤝 Contribuição
 Fique à vontade para abrir uma issue ou enviar um pull request com melhorias.

@@ -1,5 +1,5 @@
 <?php
-    include "view/header.php";
+    include "header.php";
     
     if(!isset($_SESSION['name']))
     {
@@ -17,5 +17,5 @@
     ?>
     
 <?php
-    include "view/footer.php";
+    include "footer.php";
 ?>

@@ -50,7 +50,7 @@ export const english = {
     },
 
     "genres" : {
-        "title" : "Books",
+        "title" : "Genres",
         "genre_button" : "Add genre",
         "description_table" : "Description",
         "book_table" : "Register books",
@@ -169,7 +169,7 @@ export const portuguese = {
     },
 
     "genres" : {
-        "title" : "Livros",
+        "title" : "Gêneros",
         "genre_button" : "Adicionar gênero",
         "description_table" : "Descrição",
         "book_table" : "Livros cadastrados",

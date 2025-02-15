@@ -1,0 +1,39 @@
+volumes:
+  mysql:
+
+networks:
+  library_app:
+    driver: bridge
+    
+services:
+  app:
+    image: php:8.3-apache
+    build: 
+      context: ./App
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql
+    ports:
+      - 8080:80
+    environment:
+      DB_HOST: mysql
+      DB_NAME: library
+      DB_USER: root
+      DB_PASS: Pass@123
+    volumes:
+      - ./App:/var/www/html
+    networks:
+      - library_app
+    
+  mysql:
+    image: mysql:8.3.0
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql
+      - ./Database:/docker-entrypoint-initdb.d
+
+    environment:
+      MYSQL_ROOT_PASSWORD: Pass@123
+    networks:
+      - library_app
